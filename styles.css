@@ -1,0 +1,208 @@
+body {
+	background-color: rgba(255,255,255,1);
+	margin: 0;
+	padding: 0;
+}
+
+.container-fluid {
+}
+
+header {
+	background-color: #476A6F;
+	padding: 30px;
+	box-sizing: border-box;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: rgba(0,0,0,.3);
+}
+
+header img {
+	float:left;
+	margin-right: 10px;
+    margin-top: 18px;
+	width:40px;
+	height:auto;
+	mix-blend-mode: soft-light;
+}
+
+.col-md-6 {
+	height:200px;
+	background-color:rgba(0,204,153,1);
+}
+
+.col-md-12 {
+	height:400px;
+	background-color:rgba(0,204,153,.5);
+}
+
+a {
+	text-decoration: none;
+	color: rgba(255,255,255,1);
+	width: 100%;
+	display: block;
+	background-color: rgba(0,0,0,.4);
+	padding: 10px;
+	mix-blend-mode: multiply;
+	text-transform: uppercase;
+	position:absolute;
+	bottom: 0px;
+	font-size: 15px;
+	-webkit-transition: all 400ms ease;
+	-moz-transition: all 400ms ease;
+	-ms-transition: all 400ms ease;
+	-o-transition: all 400ms ease;
+	transition: all 400ms ease;
+	box-sizing:border-box;
+}
+
+a:hover {
+	color: white;
+	mix-blend-mode: normal;
+	text-decoration: none;
+	-webkit-transition: all 400ms ease;
+	-moz-transition: all 400ms ease;
+	-ms-transition: all 400ms ease;
+	-o-transition: all 400ms ease;
+	transition: all 400ms ease;
+	padding-left:50px;
+}
+
+img {
+	width: 50px;
+    display: block;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.col-md-12, .col-md-6 {
+    padding: 0;
+}
+
+#leaderboard, #entertainement, #sports, #foods, #genralknowledge, #geography, #history, #sciencenature, #tv, #music, #profile  {
+	background-size: 50px auto;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-blend-mode: soft-light;
+}
+
+#leaderboard {
+	background-color: #476A6F;
+	background-image: url(https://maxcdn.icons8.com/iOS7/PNG/50/Sports/trophy-50.png);
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-right-color: rgba(0,0,0,.3);
+}
+
+#entertainement {
+	background-color: #519E8A;
+	background-image: url(https://maxcdn.icons8.com/iOS7/PNG/75/Music/rock_music-75.png);
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-right-color: rgba(0,0,0,.3);
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: rgba(0,0,0,.3);
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: rgba(0,0,0,.3);
+}
+
+#sports {
+	background-color: #EA526F;
+	background-image: url(https://maxcdn.icons8.com/iOS7/PNG/75/Sports/sup-75.png);
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-right-color: rgba(0,0,0,.3);
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: rgba(0,0,0,.3);
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: rgba(0,0,0,.3);
+}
+
+#foods {
+	background-color: #7EB09B;
+	background-image: url(https://maxcdn.icons8.com/iOS7/PNG/50/Food/vegetarian_food-50.png);
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-right-color: rgba(0,0,0,.3);
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	border-bottom-color: rgba(0,0,0,.3);
+}
+
+#genralknowledge {
+	background-color: #C5C9A4;
+	background-image: url(https://maxcdn.icons8.com/iOS7/PNG/75/Users/student_2_filled-75.png); 
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-right-color: rgba(0,0,0,.3);
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	border-bottom-color: rgba(0,0,0,.3);
+}
+
+#geography {
+	background-color: #ECBEB4;
+	background-image: url(https://maxcdn.icons8.com/iOS7/PNG/75/Maps/layers-75.png);
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-right-color: rgba(0,0,0,.3);
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: rgba(0,0,0,.3);
+}
+
+#history {
+	height:200px;
+	background-color: #EA526F;
+	background-image: url(https://maxcdn.icons8.com/iOS7/PNG/75/Travel/coliseum-75.png); 
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: rgba(0,0,0,.3);
+}
+
+#sciencenature {
+	background-color: #7EB09B;
+	background-image: url(https://maxcdn.icons8.com/iOS7/PNG/75/Science/physics-75.png);
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-right-color: rgba(0,0,0,.3);
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: rgba(0,0,0,.3);
+}
+
+#tv {
+	background-color: #476A6F;
+	background-image: url(https://maxcdn.icons8.com/iOS7/PNG/75/Sports/medal2-75.png);
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: rgba(0,0,0,.3);
+}
+
+#music {
+	background-color: #C5C9A4;
+	background-image: url(https://maxcdn.icons8.com/iOS7/PNG/75/Music/headphones-75.png);
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-right-color: rgba(0,0,0,.3);
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: rgba(0,0,0,.3);
+}
+
+#profile {
+	background-color: #ECBEB4;
+	background-image: url(https://maxcdn.icons8.com/iOS7/PNG/75/Users/user_male-75.png);
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: rgba(0,0,0,.3);
+}
+
+h1 {
+	color: white;
+	mix-blend-mode: soft-light;
+	text-transform: uppercase;
+}
